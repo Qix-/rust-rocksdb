@@ -1,6 +1,6 @@
 [package]
 name = "electrs-librocksdb-sys"
-version = "6.11.4-e1"
+version = "6.11.4-e2"
 edition = "2018"
 authors = ["Karl Hobley <karlhobley10@gmail.com>", "Arkadiy Paronyan <arkadiy@ethcore.io>"]
 license = "MIT/Apache-2.0/BSD-3-Clause"

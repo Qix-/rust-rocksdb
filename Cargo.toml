@@ -1,7 +1,7 @@
 [package]
 name = "electrs-rocksdb"
 description = "Rust wrapper for Facebook's RocksDB embeddable database (electrs fork)"
-version = "0.15.0-e1"
+version = "0.15.0-e2"
 edition = "2018"
 authors = ["Tyler Neely <t@jujit.su>", "David Greenberg <dsg123456789@gmail.com>"]
 repository = "https://github.com/rust-rocksdb/rust-rocksdb"
@@ -27,7 +27,7 @@ bzip2 = ["electrs-librocksdb-sys/bzip2"]
 
 [dependencies]
 libc = "0.2"
-electrs-librocksdb-sys = { path = "librocksdb-sys", version = "6.11.4-e1" }
+electrs-librocksdb-sys = { path = "librocksdb-sys", version = "6.11.4-e2" }
 
 [dev-dependencies]
 trybuild = "1.0.21"
